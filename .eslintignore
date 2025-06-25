@@ -1,0 +1,14 @@
+# 忽略建構輸出
+dist/
+build/
+
+# 忽略依賴
+node_modules/
+
+# 忽略配置文件
+*.config.js
+*.config.ts
+vite.config.ts
+
+# 忽略 .d.ts 檔案
+*.d.ts
