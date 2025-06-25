@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rodchang12.github.io/Artale_Scroll/sitemap.xml

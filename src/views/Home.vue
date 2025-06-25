@@ -113,11 +113,14 @@
       preload="auto"
     ></audio>
   </div>
+  <!-- 引入結構化資料組件 -->
+  <StructuredData />
 </template>
 
 <script setup lang="ts">
 import { ref, computed, onMounted } from 'vue'
 import scrollsData from '../assets/data/scrolls.json'
+import StructuredData from '@/components/StructuredData.vue'
 
 // 定義卷軸類型
 interface Scroll {
