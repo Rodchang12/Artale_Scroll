@@ -15,14 +15,14 @@ const route = useRoute()
 
 // 計算最終的頁面標題和描述
 const pageTitle = computed(() => {
-  return props.title || (route.meta.title as string) || 'Artale 卷軸模擬器'
+  return props.title || (route.meta.title as string) || 'Artale 墊捲模擬器'
 })
 
 const pageDescription = computed(() => {
   return (
     props.description ||
     (route.meta.description as string) ||
-    'Artale 卷軸強化模擬器 - 模擬卷軸強化效果與機率的實用工具'
+    'Artale 墊捲模擬器 衝捲 墊捲'
   )
 })
 
@@ -30,7 +30,7 @@ const pageKeywords = computed(() => {
   return (
     props.keywords ||
     (route.meta.keywords as string) ||
-    '卷軸, 強化, 模擬器, Artale, 楓之谷,墊捲,捲軸,衝卷,衝捲, 遊戲工具'
+    '卷軸, 強化, 模擬器, Artale, 楓之谷, 墊捲, 捲軸, 衝卷, 衝捲, 遊戲工具'
   )
 })
 
@@ -43,7 +43,7 @@ const pageImage = computed(() => {
 })
 
 const pageUrl = computed(() => {
-  const baseUrl = 'https://your-username.github.io'
+  const baseUrl = 'https://rodchang12.github.io'
   return props.url || `${baseUrl}${route.fullPath}`
 })
 
@@ -70,7 +70,6 @@ watch(
   { immediate: true },
 )
 
-// 輔助函數: 更新或創建 meta 標籤
 function updateMetaTag(name: string, content: string, nameAttr = 'name') {
   let metaTag = document.querySelector(`meta[${nameAttr}="${name}"]`)
 
@@ -83,7 +82,6 @@ function updateMetaTag(name: string, content: string, nameAttr = 'name') {
   metaTag.setAttribute('content', content)
 }
 
-// 輔助函數: 更新 canonical 連結
 function updateCanonicalLink(url: string) {
   let canonicalLink = document.querySelector('link[rel="canonical"]')
 
@@ -97,6 +95,4 @@ function updateCanonicalLink(url: string) {
 }
 </script>
 
-<template>
-  <!-- 此組件不需要渲染任何內容，僅用於動態更新 meta 標籤 -->
-</template>
+<template></template>
