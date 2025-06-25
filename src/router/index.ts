@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
+import { createRouter, createWebHashHistory, type RouteRecordRaw } from 'vue-router'
 
 // 路由組件
 const Home = () => import('@/views/Home.vue')
@@ -23,7 +23,7 @@ const routes: RouteRecordRaw[] = [
 
 // 創建路由實例
 const router = createRouter({
-  history: createWebHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(import.meta.env.BASE_URL),
   routes,
   // 路由滾動行為
   scrollBehavior() {
