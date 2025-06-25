@@ -27,7 +27,7 @@ const routes: RouteRecordRaw[] = [
 
 // 創建路由實例
 const router = createRouter({
-  history: createWebHashHistory(import.meta.env.BASE_URL),
+  history: createWebHashHistory(),
   routes,
   // 路由滾動行為
   scrollBehavior() {

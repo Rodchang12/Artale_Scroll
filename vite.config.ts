@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/Artale_Scroll/',
   resolve: {
     alias: {
-      '@': './src',
+      '@': '/src',
     },
   },
   build: {
