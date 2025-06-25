@@ -5,8 +5,14 @@ import vue from 'eslint-plugin-vue'
 import vueParser from 'vue-eslint-parser'
 import prettier from 'eslint-plugin-prettier'
 import prettierConfig from 'eslint-config-prettier'
+import pluginVue from 'eslint-plugin-vue'
+import {
+  defineConfigWithVueTs,
+  vueTsConfigs,
+} from '@vue/eslint-config-typescript'
+import skipFormatting from '@vue/eslint-config-prettier/skip-formatting'
 
-export default [
+export default defineConfigWithVueTs([
   js.configs.recommended,
   ...vue.configs['flat/essential'],
   prettierConfig,
@@ -39,4 +45,7 @@ export default [
   {
     ignores: ['dist/**', 'node_modules/**', '*.config.js', '*.config.ts'],
   },
-]
+  pluginVue.configs['flat/essential'],
+  vueTsConfigs.recommended,
+  skipFormatting,
+])

@@ -69,33 +69,33 @@
 </template>
 
 <script setup lang="ts">
-  import { ref, computed } from 'vue'
+import { ref, computed } from 'vue'
 
-  const successRate = ref(60)
-  const totalScrolls = ref(5)
-  const results = ref<boolean[]>([])
-  const hasRun = computed(() => results.value.length > 0)
-  const successCount = computed(() => results.value.filter(x => x).length)
-  const rateDisplay = computed(() =>
-    hasRun.value
-      ? ((successCount.value / totalScrolls.value) * 100).toFixed(1) + '%'
-      : ''
+const successRate = ref(60)
+const totalScrolls = ref(5)
+const results = ref<boolean[]>([])
+const hasRun = computed(() => results.value.length > 0)
+const successCount = computed(() => results.value.filter((x) => x).length)
+const rateDisplay = computed(() =>
+  hasRun.value
+    ? ((successCount.value / totalScrolls.value) * 100).toFixed(1) + '%'
+    : '',
+)
+
+function simulateScrolls() {
+  results.value = Array.from(
+    { length: totalScrolls.value },
+    () => Math.random() * 100 < successRate.value,
   )
+}
 
-  function simulateScrolls() {
-    results.value = Array.from(
-      { length: totalScrolls.value },
-      () => Math.random() * 100 < successRate.value
-    )
-  }
-
-  function reset() {
-    results.value = []
-  }
+function reset() {
+  results.value = []
+}
 </script>
 
 <style scoped>
-  body {
-    font-family: 'Helvetica Neue', sans-serif;
-  }
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+}
 </style>

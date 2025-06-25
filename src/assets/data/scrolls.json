@@ -1,0 +1,324 @@
+{
+  "scrolls": [
+    {
+      "id": "scroll_1",
+      "name": "上衣幸運",
+      "description": ""
+    },
+    {
+      "id": "scroll_2",
+      "name": "上衣力量",
+      "description": ""
+    },
+    {
+      "id": "scroll_3",
+      "name": "上衣防禦",
+      "description": ""
+    },
+    {
+      "id": "scroll_4",
+      "name": "上衣體力",
+      "description": ""
+    },
+    {
+      "id": "scroll_5",
+      "name": "下衣體力",
+      "description": ""
+    },
+    {
+      "id": "scroll_6",
+      "name": "下衣跳躍",
+      "description": ""
+    },
+    {
+      "id": "scroll_7",
+      "name": "下衣防禦",
+      "description": ""
+    },
+    {
+      "id": "scroll_8",
+      "name": "單手斧攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_9",
+      "name": "單手棍命中",
+      "description": ""
+    },
+    {
+      "id": "scroll_10",
+      "name": "單手斧命中",
+      "description": ""
+    },
+    {
+      "id": "scroll_11",
+      "name": "單手劍攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_12",
+      "name": "單手棍攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_13",
+      "name": "套服防禦",
+      "description": ""
+    },
+    {
+      "id": "scroll_14",
+      "name": "套服敏捷",
+      "description": ""
+    },
+    {
+      "id": "scroll_15",
+      "name": "套服智力",
+      "description": ""
+    },
+    {
+      "id": "scroll_16",
+      "name": "套服幸運",
+      "description": ""
+    },
+    {
+      "id": "scroll_17",
+      "name": "弓攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_18",
+      "name": "弩攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_19",
+      "name": "手套敏捷",
+      "description": ""
+    },
+    {
+      "id": "scroll_20",
+      "name": "手套敏捷性",
+      "description": ""
+    },
+    {
+      "id": "scroll_21",
+      "name": "手套攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_22",
+      "name": "手套體力",
+      "description": ""
+    },
+    {
+      "id": "scroll_23",
+      "name": "手槍攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_24",
+      "name": "披風物防",
+      "description": ""
+    },
+    {
+      "id": "scroll_25",
+      "name": "披風智力",
+      "description": ""
+    },
+    {
+      "id": "scroll_26",
+      "name": "披風魔防",
+      "description": ""
+    },
+    {
+      "id": "scroll_27",
+      "name": "披風幸運",
+      "description": ""
+    },
+    {
+      "id": "scroll_28",
+      "name": "披風體力",
+      "description": ""
+    },
+    {
+      "id": "scroll_29",
+      "name": "披風敏捷",
+      "description": ""
+    },
+    {
+      "id": "scroll_30",
+      "name": "披風力量",
+      "description": ""
+    },
+    {
+      "id": "scroll_31",
+      "name": "披風物禦",
+      "description": ""
+    },
+    {
+      "id": "scroll_32",
+      "name": "披風魔力",
+      "description": ""
+    },
+    {
+      "id": "scroll_33",
+      "name": "拳套攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_34",
+      "name": "指虎命中",
+      "description": ""
+    },
+    {
+      "id": "scroll_35",
+      "name": "指虎命中率",
+      "description": ""
+    },
+    {
+      "id": "scroll_36",
+      "name": "指虎攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_37",
+      "name": "槍命中",
+      "description": ""
+    },
+    {
+      "id": "scroll_38",
+      "name": "槍攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_39",
+      "name": "盾牌幸運",
+      "description": ""
+    },
+    {
+      "id": "scroll_40",
+      "name": "盾牌力量",
+      "description": ""
+    },
+    {
+      "id": "scroll_41",
+      "name": "盾牌體力",
+      "description": ""
+    },
+    {
+      "id": "scroll_42",
+      "name": "盾牌防禦",
+      "description": ""
+    },
+    {
+      "id": "scroll_43",
+      "name": "矛命中",
+      "description": ""
+    },
+    {
+      "id": "scroll_44",
+      "name": "矛攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_45",
+      "name": "短劍攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_46",
+      "name": "短杖魔力",
+      "description": ""
+    },
+    {
+      "id": "scroll_47",
+      "name": "耳環體力",
+      "description": ""
+    },
+    {
+      "id": "scroll_48",
+      "name": "耳環智力",
+      "description": ""
+    },
+    {
+      "id": "scroll_49",
+      "name": "耳環幸運",
+      "description": ""
+    },
+    {
+      "id": "scroll_50",
+      "name": "長杖魔力",
+      "description": ""
+    },
+    {
+      "id": "scroll_51",
+      "name": "雙手劍攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_52",
+      "name": "雙手劍命中",
+      "description": ""
+    },
+    {
+      "id": "scroll_53",
+      "name": "雙手棍命中",
+      "description": ""
+    },
+    {
+      "id": "scroll_54",
+      "name": "雙手斧命中",
+      "description": ""
+    },
+    {
+      "id": "scroll_55",
+      "name": "雙手棍攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_56",
+      "name": "雙手斧攻擊",
+      "description": ""
+    },
+    {
+      "id": "scroll_57",
+      "name": "鞋子敏捷性",
+      "description": ""
+    },
+    {
+      "id": "scroll_58",
+      "name": "鞋子跳躍",
+      "description": ""
+    },
+    {
+      "id": "scroll_59",
+      "name": "鞋子敏捷",
+      "description": ""
+    },
+    {
+      "id": "scroll_60",
+      "name": "鞋子移速",
+      "description": ""
+    },
+    {
+      "id": "scroll_61",
+      "name": "頭盔敏捷",
+      "description": ""
+    },
+    {
+      "id": "scroll_62",
+      "name": "頭盔防禦",
+      "description": ""
+    },
+    {
+      "id": "scroll_63",
+      "name": "頭盔體力",
+      "description": ""
+    },
+    {
+      "id": "scroll_64",
+      "name": "頭盔智力",
+      "description": ""
+    }
+  ]
+}
